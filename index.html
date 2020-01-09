@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Moods Site</title>
+        <link rel="stylesheet" href="moods.css">
+        <script type="text/javascript">
+            function showHideDiv(ele) {
+                var srcElement = document.getElementById(ele);
+                if (srcElement != null) {
+                    if (srcElement.style.display == "block") {
+                        srcElement.style.display = 'none';
+                    }
+                    else {
+                        srcElement.style.display = 'block';
+                    }
+                    return false;
+                }
+            }
+        </script>
+    </head>
+
+    <body></br></br>
+        <h2>Moods site</h2>
+        <h4>Welcome to the Moods site. We are happy and sad at the same time to see you here. We hope that this visit
+            will make you feel better or even excellent. Scroll down and you will find what you are looking for. Take
+            care of yourself.
+        </h4><br/>
+
+        <header class="main">
+            <div class="dropdown">
+                <button class="dropbtn">Select emotion:</button>
+                <div class="dropdown-content">
+                    <a href="#sad"><input type="button" value="Sad" onClick="showHideDiv('divMsg1')" style="background-color: blanchedalmond; width: 100px; height: 28px; border: none; font-size: medium;"></a>
+                    <a href="#happy"><input type="button" value="Happy" onClick="showHideDiv('divMsg2')" style="background-color: blanchedalmond; width: 100px; height: 28px; border: none; font-size: medium;"></a>
+                    <a href="#anxious"><input type="button" value="Anxious" onClick="showHideDiv('divMsg3')" style="background-color: blanchedalmond; width: 100px; height: 28px; border: none; font-size: medium;"></a>
+                    <a href="#exhausted"><input type="button" value="Exhausted" onClick="showHideDiv('divMsg4')" style="background-color: blanchedalmond; width: 100px; height: 28px; border: none; font-size: medium;"></a>
+                    <a href="#nervous"><input type="button" value="Nervous" onClick="showHideDiv('divMsg5')" style="background-color: blanchedalmond; width: 100px; height: 28px; border: none; font-size: medium;"></a>
+                    <a href="#thankfull"><input type="button" value="Thankfull" onClick="showHideDiv('divMsg7')" style="background-color: blanchedalmond; width: 100px; height: 28px; border: none; font-size: medium;"></a>
+                    <a href="#impatient"><input type="button" value="Impatient" onClick="showHideDiv('divMsg6')" style="background-color: blanchedalmond; width: 100px; height: 25px; border: none; font-size: medium;"></a>
+                </div>
+            </div>
+        </header><br/>
+            
+            <dl>
+                <dt>
+                    <dd id="thankfull">
+                        <center>
+                            <div id="divMsg7" style="color: #000000; height: 150px; width: 700px; text-align: center; display:none">
+                                    <b>Be thankful for what you have; you'll end up having more. </br> If you concentrate on what 
+                                        you don't have, you will never, ever have enough. <br/> </br>
+                                        Appreciation can make a day—even change a life. Your willingness to put it into words is all that is necessary. <br/></b>
+                            </div>
+                        </center>
+                    </dd>
+                </dt>
+            </dl>
+
+            <dl>
+                <dt>
+                    <dd id="sad">
+                        <center>
+                            <div id="divMsg1" style="color: #000000; height: 150px; width: 700px; text-align: center; display:none">
+                                    <b>The secret of being happy is accepting where you are in life
+                                        and making the most out of everyday. <br/> </br>
+                                        The only thing that will make you happy is being happy with who you are. <br/></b>
+                            </div>
+                        </center>
+                    </dd>
+                </dt>
+            </dl>
+    
+            <dl>
+                <dt>
+                    <dd id="happy">
+                        <center>
+                            <div id="divMsg2" style="color:  #000000; height: 150px; width: 700px; text-align: center; display:none">
+                                    <b>Be happy with what you have. Be excited about what you want. <br/> </br>
+                                        When you are happy, nothing else in the world matters, that is the 
+                                        truth among all truth.</b>
+                            </div>
+                        </center>
+                    </dd>
+                </dt>
+            </dl>
+    
+            <dl>
+                <dt>
+                    <dd id="anxious">
+                        <center>
+                            <div id="divMsg3" style="color:  #000000; height: 150px; width: 700px; text-align: center; display:none">
+                                    <b>Trust yourself. You’ve survived a lot, and you’ll survive whatever is coming.<br/> </br>
+                                        You don’t have to control your thoughts. You just have to stop letting them control you.</b>
+                            </div>
+                        </center>                        
+                    </dd>
+                </dt>
+            </dl>
+
+            <dl>
+                <dt>
+                    <dd id="exhausted">
+                        <center>
+                            <div id="divMsg4" style="color:  #000000; height: 150px; width: 700px; text-align: center; display:none">
+                                    <b>Anxiety happens when you think you have to figure out everything all at once.
+                                        Breathe. You’re strong. You got this. Take it day by day.<br/></br>
+                                        Sometimes you don’t realize the weight of something you’ve been carrying until you feel the weight of its release.</b> </br>
+                            </div>
+                        </center>                        
+                    </dd>
+                </dt>
+            </dl>
+
+            <dl>
+                <dt>
+                    <dd id="nervous">
+                        <center>
+                            <div id="divMsg5" style="color: #000000; height: 150px; width: 700px; text-align: center; display:none">
+                                    <b>Relax; the world's not watching that closely. It's too busy contemplating itself in the mirror.<br/> </br>
+                                        It is okay to be nervous. Instead of fighting that anxiety, dance with it.
+                                        Welcome it. Relish it. It is a sign you are on to something.</b>
+                            </div>
+                        </center>
+                    </dd>
+                </dt>
+            </dl>
+
+            <dl>
+                <dt>
+                    <dd id="impatient">
+                        <center>
+                            <div id="divMsg6" style="color: #000000; height: 150px; width: 700px; text-align: center; display:none">
+                                    <b>Patience is the art of concealing your impatience.<br/></br>
+                                        Impatience can cause wise people to do foolish things. <br/></br>
+                                        The goal to be reached is the mind’s insight into what knowing is. Impatience asks for the impossible, wants to reach 
+                                        the goal without the means of getting there.</b>
+                            </div>
+                        </center>
+                    </dd>
+                </dt>
+            </dl>
+    </body>
+</html>

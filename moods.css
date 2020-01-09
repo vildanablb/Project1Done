@@ -1,0 +1,76 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins&display=swap';
+
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: blanchedalmond;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+
+.dropbtn {
+    background-color: rgb(136, 54, 92);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(136, 54, 92);
+    min-width: 142px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 6% ;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:  rgb(136, 54, 92);}
+.dropdown:hover .dropdown-content {display: block;}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid black;
+    border-radius: 5px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+  }
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: violet;
+  }
